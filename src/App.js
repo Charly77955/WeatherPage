@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
-import main from './components/main';
+import TodayWeather from './pages/todayWeather/todayWeather';
 
 function App() {
   return (
     <div className="App">
-      <main/>
+      <TodayWeather/>
     </div>
   );
 }
