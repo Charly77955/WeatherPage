@@ -1,0 +1,10 @@
+.week-container{
+    background-color: #100E1D;
+    padding: 52px 55px;
+}
+
+.cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
