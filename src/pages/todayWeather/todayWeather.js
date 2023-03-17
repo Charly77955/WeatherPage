@@ -27,6 +27,9 @@ export default function TodayWeather() {
     <div className='container'>
       <img src=''/>
       <div className='components'>
+      <span class="material-icons md-light">face</span>
+
+
         <button className='button-search'><p className='button-search-font'>Search for places</p></button>
         <div className='placement-icon'><img className='findMeIcon' src={findMe}/>
         </div>
