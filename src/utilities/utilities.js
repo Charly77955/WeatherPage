@@ -1,6 +1,6 @@
 import Shower from './../assets/weather-app-master/Shower.png'
 import Clear from './../assets/weather-app-master/Clear.png'
-import CloudBackground from './../assets/weather-app-master/Cloud-background.png'
+import CloudBackground from './../assets/weather-app-master/cloudBackground.png'
 import Hail from './../assets/weather-app-master/Hail.png'
 import HeavyRain from './../assets/weather-app-master/HeavyRain.png'
 import HeavyCloud from './../assets/weather-app-master/HeavyCloud.png'

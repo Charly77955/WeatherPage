@@ -6,4 +6,8 @@ p{
 }
 
 
-.material-icons.md-light { color: #E7E7EB; }
+.material-symbols-outlined{ color: #E7E7EB;}
+
+.material-icons md-light {
+    color: #e7e7eb;
+  }

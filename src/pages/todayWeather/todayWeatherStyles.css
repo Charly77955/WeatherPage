@@ -1,122 +1,134 @@
 .container {
-    width: 375px;
-    height: 810px;
-    left: 0px;
-    top: 0px;
-    background: #1E213A;
+  width: 375px;
+  height: 810px;
+  background: #1e213a;
+}
+.clouds {
+  position: absolute;
+width: 563.56px;
+height: 326px;
+left: -111px;
+top: 58px;
+
+  opacity: 0.1;
+}
+.components {
+  display: flex;
+  margin: auto 10px;
+  justify-content: space-between;
+  
 }
 .button-search {
-  position: absolute;
-  width: 140px;
-  height: 30px;
-  left: 11px;
-  top: 15px;
-  background: #6E707A;
+  margin: 10px;
+  display: flex;
+  width: 180px;
+  height: 45px;
+  background: #6e707a;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.button-search-font{
-    position: absolute;
-    width: 125px;
-    height: 19px;
-    left: 5px;
-    bottom: 2px;
-    
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500px;
-    font-size: 14px;
-    line-height: 45px;
-    color: #E7E7EB;
+.button-search-font {
+  width: 170px;
+  height: 23px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500px;
+  font-size: 19px;
+  line-height: 37px;
+  color: #e7e7eb;
+  left: 0px;
 }
 .placement-icon {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 300px;
-    top: 10px;
-    border-radius: 20px;
-    background: rgba(110, 112, 122, 0.3);
+  display: flex;
+  margin: auto 10px;
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+  background: rgba(110, 112, 122, 0.3);
 }
-.findMeIcon {
-  height: 30px;
-  padding: 5px;
-  color: #E7E7EB;
+.material-icons{
+  padding: 8px;
+  color: #a09fb1;
+}
+.location{
+  color: #e7e7eb;
 }
 
 .weather-icon {
-  position: absolute;
-  width: 150px;
+  display: flex;
+  justify-content: center;
+  
   height: 174px;
-  left: 60px;
-  top: 50px;
+  margin: 20px 10px;
 }
 .degres-font {
-    position: absolute;
-    width: 192px;
-    height: 169px;
-    left: 92px;
-    top: 180px;
-    
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 144px;
-    line-height: 169px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 160px;
+  padding: 10px;
+  margin: 30px 5px 10px 50px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 75px;
+  line-height: 0px;
+  color: #e7e7eb;
+}
+.degre-c {
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  color: #a09fb1;
 }
 .weather-status-font {
-  position: absolute;
-  width: 129px;
-  height: 42px;
-  left: 133px;
-  top: 450px;
-
+  display: flex;
+  justify-content: center;
+  margin: 30px 40px 60px 40px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
-  line-height: 42px;
   text-align: center;
+  color: #a09fb1;
+}
+.weather-highlights{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: auto 90px ;
+  height: 10px;
+
 }
 .today-font {
-  position: absolute;
-  width: 51px;
-  height: 21px;
-  left: 116px;
-  top: 550px;
-
+  
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 21px;
   color: #88869d;
 }
-.circle-icon{
-  position: absolute;
-  top: 585px;
-  left: 180px;
-  height: 15px;
+.circle-icon {
+  display: flex;
+  justify-content: center;
+  color: #88869d;
 }
 .date {
-  position: absolute;
-  width: 73px;
-  height: 21px;
-  left: 206px;
-  top: 550px;
-
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 21px;
   color: #88869d;
 }
+.position{
+  display: flex;
+  align-items: center;
+  margin: 10px 50px 120px  120px ;
+}
 .city {
-  position: absolute;
-  width: 68px;
-  height: 21px;
-  left: 155px;
-  top: 600px;
 
   font-family: "Raleway";
   font-style: normal;
@@ -125,9 +137,6 @@
   line-height: 21px;
   color: #88869d;
 }
-.location-icon{
-  position: absolute;
-  top: 623px;
-  left: 120px;
-  height: 35px;
+.material-icons md-light {
+  color: #e7e7eb;
 }
