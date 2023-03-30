@@ -1,0 +1,16 @@
+.hightlightsContainer{
+    width: 375px;
+    height: 810px;
+    background: #1e213a;
+}
+.windStatusContainer{
+    display: flex;
+    justify-content: center;
+    margin: auto 80px;
+    height: 100px;
+    width: 200px;
+}
+.windStatusStats{
+    display: flex;
+    align-items: center;
+}

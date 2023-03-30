@@ -21,7 +21,7 @@ export default function TodayWeather() {
   }, [])
 
   return (
-    <div className='container'>
+    <div className='todayWeather-container'>
       <img className='clouds' src={cloudBackground}/>
       <div className='components'>
         <button className='button-search'>
