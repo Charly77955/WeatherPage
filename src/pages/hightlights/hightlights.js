@@ -14,14 +14,14 @@ export default function Hightlights() {
       </div>
       <div className="humidityContainer">
         <p className="humidityFont">Humidity</p>
-        <div>
-          <p className="humidityFont-84">84</p>
-          <p className="humidityFont-%">%</p>
-          <div>
-            <p className="humidityFont-0">0</p>
-            <p className="humidityFont-0">50</p>
-            <p className="humidityFont-0">100</p>
+        <div className="humidityStats">
+          <p className="humidityStats-84">84</p>
+          <p className="humidityStats-percent">%</p>
           </div>
+          <div className="humidityBar">
+            <p className="humidityBar-0">0</p>
+            <p className="humidityBar-50">50</p>
+            <p className="humidityBar-100">100</p>
         </div>
       </div>
       <div className="visibilityContainer">
